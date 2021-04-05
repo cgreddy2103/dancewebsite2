@@ -1,0 +1,38 @@
+extends base.pug
+block scripts  
+    script(src="/static/index.js")
+block style 
+    style 
+        include ../static/style.css 
+block content 
+        section#introsection 
+            | section for pictur
+        section#missionsection 
+            h2 mission section        
+            div.card 
+                h3 dance perfection
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/bha.jpg")
+                    div.card-content 
+                        p this is the best academy
+            div.card 
+                h3 dance u like
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/kuch.jpg")
+                    div.card-content 
+                        p this is the best academy
+            div.card 
+                h3 expert training
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/western.jpg")
+                    div.card-content 
+                        p this is the best academy
+        section#sponsorsection 
+            h2 section sponsors 
+            div#sponser
+                img(src="/static/appple.jpg",alt="sponser image",class="spImage")
+                img(src="/static/mi.jpg",alt="sponser image",class="spImage")
+                img(src="/static/oracle.jpg",alt="sponser image",class="spImage")

@@ -1,0 +1,57 @@
+doctype html 
+html 
+    head 
+        title this is title
+        style  
+          include ../static/style.css 
+    body 
+        nav#navbar 
+            ul
+                 
+                div#logo 
+                    img(src="/static/bha.jpg")
+                    | hda 
+
+                li #[a(href ="/") home]
+                li #[a(href ="/") about]
+                li #[a(href ="/") services]
+                li #[a(href ="/") class info]
+                li #[a(href ="/") contact us] 
+        section#introsection 
+            | section for pictur
+        section#missionsection 
+            h2 mission section        
+            div.card 
+                h3 dance perfection
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/bha.jpg")
+                    div.card-content 
+                        p this is the best academy
+            div.card 
+                h3 dance u like
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/kuch.jpg")
+                    div.card-content 
+                        p this is the best academy
+            div.card 
+                h3 expert training
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/western.jpg")
+                    div.card-content 
+                        p this is the best academy
+        section#sponsorsection 
+            h2 section sponsors 
+            div#sponser
+                img(src="/static/appple.jpg",alt="sponser image",class="spImage")
+                img(src="/static/mi.jpg",alt="sponser image",class="spImage")
+                img(src="/static/oracle.jpg",alt="sponser image",class="spImage")
+    
+        
+
+        footer#footer 
+            |copyright ganesh dance academy.com
+        script 
+            include ../static/index.js 
